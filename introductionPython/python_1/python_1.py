@@ -20,6 +20,7 @@ instagram = ("Instagram")
 
 # Afficher la variable5
 print(instagram)
+
 # Connaître la longueur du string
 print(len(instagram))
 
@@ -29,3 +30,17 @@ print (instagram[3])
 # Trier les éléments par ordre alphabétique
 reseauxSociaux.sort()
 print(reseauxSociaux)
+
+# Créer/afficher/supprimer un dictionnaire
+chaussure = {
+    "taille" : 42,
+    "marque" : "Nike",
+    "race" : "berger-allemand"
+}
+
+del chaussure["race"]
+
+print (chaussure)
+
+# Supprimer une paire clé-valeur
+del infos_labradoodle["origine"]
